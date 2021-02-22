@@ -1,11 +1,6 @@
 # Google Translate API
 A [Node.JS](https://nodejs.org) library to consume Google Translate for free.
 
-[![GitHub release](https://img.shields.io/github/release/iamtraction/google-translate.svg?style=flat)](https://github.com/iamtraction/google-translate/releases)
-[![Dependencies](https://david-dm.org/iamtraction/google-translate.svg)](https://david-dm.org/iamtraction/google-translate)
-[![Known Vulnerabilities](https://snyk.io/test/github/iamtraction/google-translate/badge.svg?targetFile=package.json)](https://snyk.io/test/github/iamtraction/google-translate?targetFile=package.json)
-[![license](https://img.shields.io/github/license/iamtraction/google-translate.svg)](LICENSE)
-
 ### Feature Highlights
 * Automatically detect source language
 * Automatic spelling corrections
@@ -18,22 +13,9 @@ A [Node.JS](https://nodejs.org) library to consume Google Translate for free.
 * [Examples](#examples)
 * [Credits, etc](#extras)
 
-## Installation
-```bash
-# Stable version, from npm repository
-npm install --save @iamtraction/google-translate
-
-# Latest version, from GitHub repository
-npm install --save iamtraction/google-translate
-```
-
 ## Usage
 ```js
-// If you've installed from npm, do:
-const translate = require('@iamtraction/google-translate');
-
-// If you've installed from GitHub, do:
-const translate = require('google-translate');
+const translate = require('@xrkffgg/google-translate');
 ```
 
 #### Method: `translate(text, options)`
